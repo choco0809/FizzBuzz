@@ -4,7 +4,8 @@
 
 [*1..20].map do |num|
     puts "FizzBuzz" if num % 3 == 0 && num % 5 == 0
+    puts num if num % 3 != 0 && num % 5 != 0
     puts "Fizz" if num % 3 == 0
     puts "Buzz" if num % 5 == 0
-    puts num if num % 3 != 0 && num % 5 != 0
+    
 end
